@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pothole']
+
+roboflow:
+  workspace: pothole-hps1b
+  project: potholo_detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pothole-hps1b/potholo_detection/dataset/1
