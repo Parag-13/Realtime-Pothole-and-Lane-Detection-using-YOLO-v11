@@ -2,53 +2,53 @@
 This project uses the YOLO v11 model for real-time pothole and lane detection, enhancing road safety with advanced computer vision and federated learning. It enables real-time monitoring and can integrate with autonomous vehicles or driver assistance systems to prevent accidents and improve traffic efficiency.
 
 
-WORK DONE: Pothole Detection
+=> WORK DONE: Pothole Detection
 
 
-Preprocessing:
+-> Preprocessing:
 
-Auto-Orient: Applied
+1. Auto-Orient: Applied
 
-Resize: Stretch to 640x640
-
-
-Augmentations:
-
-Outputs per training example: 3
-
-Flip: Horizontal, Vertical
-
-Crop: 0% Minimum Zoom, 20% Maximum Zoom
-
-Rotation: Between -15° and +15°
+2. Resize: Stretch to 640x640
 
 
-WORK DONE: Lane Detection
+-> Augmentations:
+
+1.Outputs per training example: 3
+
+2. Flip: Horizontal, Vertical
+
+3. Crop: 0% Minimum Zoom, 20% Maximum Zoom
+
+4. Rotation: Between -15° and +15°
 
 
-Preprocessing:
-
-Auto-Orient: Applied
-
-Resize: Stretch to 640x640
-
-Auto-Adjust Contrast: Using Adaptive Equalization
-
-Greyscale: Applied
+=> WORK DONE: Lane Detection
 
 
-Augmentations:
+-> Preprocessing:
 
-Outputs per training example: 3
+1. Auto-Orient: Applied
 
-Flip: Horizontal, Vertical
+2. Resize: Stretch to 640x640
 
-Crop: 0% Minimum Zoom, 20%
+3. Auto-Adjust Contrast: Using Adaptive Equalization
 
-Grayscale: Apply to 15% of images
+4. Greyscale: Applied
 
-Saturation: Between -25% and +25%
 
-Blur: Up to 2.5px
+-> Augmentations:
 
-Noise: Up to 0.1% of pixels
+1. Outputs per training example: 3
+
+2. Flip: Horizontal, Vertical
+
+3. Crop: 0% Minimum Zoom, 20%
+
+4. Grayscale: Apply to 15% of images
+
+5. Saturation: Between -25% and +25%
+
+6. Blur: Up to 2.5px
+
+7. Noise: Up to 0.1% of pixels
