@@ -14,7 +14,7 @@ This project uses the YOLO v11 model for real-time pothole and lane detection, e
 
 -> Augmentations:
 
-1.Outputs per training example: 3
+1. Outputs per training example: 3
 
 2. Flip: Horizontal, Vertical
 
